@@ -30,9 +30,9 @@ function Search () {
             <h2>
                 Number of Guests
                 <PeopleIcon />
-            </h2>
             <input min={0} defaultValue={2} type="number"/>
             <Button>Search Airbnb</Button>
+            </h2>
         </div>
     )
 

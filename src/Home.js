@@ -1,12 +1,29 @@
 import React from 'react'
 import "./home.css"
 import Banner from "./Banner.js"
+import Card from "./Card.js"
 
 function Home() {
     return(
         <div className='home'>
-            {/* <h1> Home Component </h1> */}
             <Banner/>
+
+            <div className='home__section'>
+                {/* 
+                <Card/>
+                <Card/>
+                <Card/> 
+                */}
+            </div>
+            <div className='home__section'>
+                {/* 
+                <Card/>
+                <Card/>
+                <Card/> 
+                */}
+
+            </div>
+
         </div>
     )
 }
